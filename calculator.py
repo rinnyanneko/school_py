@@ -28,7 +28,7 @@ try:
             print("餘數:" + str(getRemainder(a, b)))
             ans = ""
         case _:
-            raise "Invalid argument"
+            raise ValueError("Invalid argument")
     print(ans)
 except Exception as e:
     print("ERROR")

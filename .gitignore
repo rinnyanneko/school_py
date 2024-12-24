@@ -124,3 +124,6 @@ dmypy.json
 .pyre/
 cmake-build-debug/
 .idea/
+
+.venv/*
+output/*
